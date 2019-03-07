@@ -4,7 +4,7 @@ This documentation guides to build Snowplow environment on Google Cloud Platform
 
 ![](diagram.png)
 
-*Note: This tutorial was prepared for who know Google Cloud services. If you want that you can follow **Simo Ahava**'s more detailed tutorial by clicking [here](https://www.simoahava.com/analytics/install-snowplow-on-the-google-cloud-platform/).*
+*Note: This tutorial was prepared for who know Google Cloud services. If you want that you can follow [**Simo Ahava**](https://www.simoahava.com/)'s more detailed tutorial by clicking [here](https://www.simoahava.com/analytics/install-snowplow-on-the-google-cloud-platform/).*
 
 ## Prerequisites
 
