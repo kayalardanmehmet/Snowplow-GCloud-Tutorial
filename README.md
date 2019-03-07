@@ -152,6 +152,6 @@ gsutil cp -r gs://$bucket_name/enrichments .
 
 ./snowplow-bigquery-loader-$bq_version/bin/snowplow-bigquery-loader --config=$(cat bigquery_config.json | base64 -w 0) --resolver=$(cat iglu_resolver.json | base64 -w 0) --runner=DataFlowRunner --project=$project_id --region=$region --gcpTempLocation=gs://$bucket_name/temp-files --maxNumWorkers=2 --workerMachineType=n1-standard-1
 ```
-You need to chaange `<BUCKET NAME>` and `<PROJECT ID>` with relevant values of your project. You can also change the region. You can also change the **workerMachineType**s and **maxNumWorkers** with your values. If you don't want BigQuery loader auto scale you can also use `--autoscalingAlgorithm=NONE` parameter.
+You need to chaange `<BUCKET NAME>` and `<PROJECT ID>` with relevant values of your project. You can also change the region. Dont forget to change **workerMachineType**s and **maxNumWorkers** with your values. If you don't want BigQuery loader auto scale you can also use `--autoscalingAlgorithm=NONE` parameter.
 
-Now all ready. We can start an basic instance from this template and test the system!
+Now all ready. We can start a basic instance from this template and test the system!
