@@ -1,0 +1,14 @@
+{
+    "schema": "iglu:com.snowplowanalytics.snowplow/currency_conversion_config/jsonschema/1-0-0",
+    "data": {
+        "enabled": true,
+        "vendor": "com.snowplowanalytics.snowplow",
+        "name": "currency_conversion_config",
+        "parameters": {
+            "accountType": "DEVELOPER",
+            "apiKey": "c9e40b5c5e17486abc7557f644af56c0",
+            "baseCurrency": "USD",
+            "rateAt": "EOD_PRIOR"
+        }
+    }
+}
