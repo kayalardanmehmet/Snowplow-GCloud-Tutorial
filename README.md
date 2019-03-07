@@ -2,6 +2,8 @@
 
 This documentation guides to build Snowplow environment on Google Cloud Platform who wants to build their own analytics system.
 
+![](diagram.png)
+
 ## Prerequisites
 
 - Google Cloud project which billing was enabled
