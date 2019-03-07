@@ -1,8 +1,8 @@
 #! /bin/bash
 enrich_version="0.1.0"
 bq_version="0.1.0"
-bucket_name="prisma-temp-bucket"
-project_id="prisma-dev-232510"
+bucket_name="<temp bucket name>"
+project_id="<project id>"
 region="us-central1"
 
 sudo apt-get update

@@ -6,7 +6,7 @@
         "name": "currency_conversion_config",
         "parameters": {
             "accountType": "DEVELOPER",
-            "apiKey": "c9e40b5c5e17486abc7557f644af56c0",
+            "apiKey": "<api key>",
             "baseCurrency": "USD",
             "rateAt": "EOD_PRIOR"
         }

@@ -4,8 +4,8 @@
         "name": "Snowplow Page View Data",
         "id": "132bd103-1502-48b8-8a86-4756a53a4f70",
 
-        "projectId": "prisma-dev-232510",
-        "datasetId": "prisma_dataset",
+        "projectId": "<project id>",
+        "datasetId": "<dataset>",
         "tableId": "events",
 
         "input": "enriched-good-sub",
